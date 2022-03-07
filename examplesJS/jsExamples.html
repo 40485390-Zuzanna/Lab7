@@ -8,8 +8,19 @@
 </head>
 <body>
    <h2>What can JavaScript do?</h2>
-   <p id="demo">JavaScript can change content</p>
 
+   <p id="demo">JavaScript can change content</p>
    <button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'";>Click me</button>
+
+   <p id="demo2">JavaScript can change CSS</p>
+   <button type="button" onclick="document.getElementById('demo2').style.fontSize='35px'">Style me!</button>
+
+   <p id="hide">Hide me</p>
+   <button type="button" onclick="document.getElementById('hide').style.display='none'">Hide me</button>
+
+   <p id="display" style="display:none">Hello JavaScript</p>
+   <button type="button" onclick="document.getElementById('display').style.display='block'">Display me</button>
+
+
 </body>
 </html>
